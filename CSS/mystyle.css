@@ -46,7 +46,10 @@ li {
 }
 li a:hover {
     background-color: #696969;
-  }
+}
+.active {
+    background-color: #474747;
+}
 img {
     padding: 14px, 16px;
     width: 99.99%;
