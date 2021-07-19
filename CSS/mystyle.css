@@ -44,6 +44,9 @@ li a {
 li {
     float: left;
 }
+li a:hover {
+    background-color: #696969;
+  }
 img {
     padding: 14px, 16px;
     width: 99.99%;
