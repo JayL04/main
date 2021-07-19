@@ -45,7 +45,7 @@ li {
     float: left;
 }
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: #696969;
 }
 img {
     padding: 14px, 16px;
