@@ -1,0 +1,58 @@
+/*day 7 */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#head1 {
+    font-weight: bold;
+    color: red;
+}
+#head2 {
+    font-weight: bold;
+    color: green;
+}
+#column1a,#column2a {
+    background-color: lightgrey;
+}
+#column1b{
+    background-color: lightgreen;
+}
+#column2b{
+    background-color: pink;
+}
+/*day 10*/
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    float: left;
+}
+img {
+    padding: 14px, 16px;
+    width: 99.99%;
+}
+#sign-up {
+    padding: 15px, 16px;
+    text-align: center;
+}
+@media only screen and (max-width: 700px) {
+header {font-size: 50px;}
+  }
+  
