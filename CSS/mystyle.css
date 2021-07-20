@@ -61,10 +61,9 @@ img {
 table {
     background-color: darkgray;
     width: 99.99%;
-    height: 500px;
 }
-td {
-    font-size: 35px;
+th {
+    font-size: 50px;
     text-align: center;
     width: 49.995%;
 }
