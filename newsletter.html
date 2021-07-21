@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
-    <title>Sign Up</title>
+    <title>Newsletter</title>
     <link rel="stylesheet" href="https://jayl04.github.io/main/CSS/mystyle.css">
 </head>
 <body>
-    <header>Sign Up</header>
+    <header>Newsletter</header>
     <ul id="nav-bar">
         <li>
             <a href="https://jayl04.github.io/main/index.html">Home</a>
@@ -29,16 +29,22 @@
 <form action="mailto:lja350647@gnspes.ca?subject=From%20our%20Website" 
 method="post" enctype="text/plain">
 
-<p>YourName:</p>
-<input type="text" name="YourName" minlength="3" required="required">
+<p>E-mail:</p>
+<input type="email" name="email" required="required">
 <br>
-<p>your age:</p>
+<p>First Name:</p>
+<input type="text" name="FirstName" minlength="3" required="required">
+<br>
+<p>Last Name:</p>
+<input type="text" name="LastName" minlength="3" required="required">
+<br>
+<p>Age:</p>
 <input type="number" name="Age" minlength="12" required="required">
 <br>
 <p>Phone #:</p>
 <input type="tel" name="phone#" required="required"><br>
 <p>Province:</p>
-<select name="Province">
+<select name="Province" required="required">
     <option value="Nova Scotia">NS</option>
     <option value="Alberta">AB</option>
     <option value="British Columbia">BC</option>
@@ -51,21 +57,17 @@ method="post" enctype="text/plain">
     <option value="Yukon">YT</option>
     <option value="Northwest Territories">NT</option>
     <option value="Nunavut">NU</option>
-</select><br>
-<p>What is your favourite image category?</p>
-<select name="category">
-    <option value="Landscape">Landscape</option>
-    <option value="Protest">Protest</option>
-    <option value="Portrait">Portrait</option>
-    <option value="Cityscape">Cityscape</option>
-</select><br>
+</select>
+<br>
 <br>
 <label for="TDate">Today's Date:</label>
 <input type="date" id="TDate" name="TDate" required="required">
 <br>
-<br>
-<input type="checkbox" name="newsletter">
-<label for="newsletter">Would you like to Sign up for our Newsletter?</label>
+<p>are you a robot?</p>
+<label for="robot yes">yes</label>
+<input type="checkbox" name="robot yes" required="">
+<label for="robot no">no</label>
+<input type="checkbox" name="robot no" required="required">
 <br>
 <br>
 <input type="submit" value="Send">
